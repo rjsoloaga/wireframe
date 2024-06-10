@@ -3,6 +3,7 @@
 }
 
 .titulo {
+    background-color: rgb(137, 229, 245);
     text-align: center;
     text-justify: auto;
 }
@@ -50,7 +51,13 @@
     
     height: 300px;
     width: 300px;
-    }
+}
+
+.container {
+    display: flex; /* Utiliza flexbox para el diseño */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
 
 footer {
     background-color: #333; /* Color de fondo del footer */
